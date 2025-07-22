@@ -1,10 +1,12 @@
 import React from 'react'
 import ChipsInput from './Components/ChipsInput.jsx'
+import AgeCalculator from './Components/AgeCalculator.jsx'
 
 const App = () => {
   return (
     <div>
-      <ChipsInput />
+      {/**<ChipsInput />  */}
+      <AgeCalculator />
     </div>
   )
 }

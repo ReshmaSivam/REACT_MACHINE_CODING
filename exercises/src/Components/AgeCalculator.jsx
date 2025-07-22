@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 function AgeCalculator() {
 
   const [birthDate, setbirthDate] = useState("");
-  // eslint-disable-next-line no-unused-vars
+  
   const [age, setage] = useState(null);
-  // eslint-disable-next-line no-unused-vars
+
   const [error, seterror] = useState("");
 
   const calculateAge = () => {
